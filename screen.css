@@ -1,0 +1,167 @@
+/* screen.css */
+
+body{
+background:#95A09A;   /*grey of Great Wall*/
+font-family:Verdana, sans-serif;}
+
+#container{
+width:900px;
+margin-left:auto;
+margin-right:auto;
+marigin-bottom:50px;
+margin-bottom:0;
+background:white;
+}
+
+a{color:white;}
+/* Header */
+
+#header{
+height:150px;
+width:500px;
+background:#9AC0CD;
+float:left;
+/*background:#0B3D92;  /*china blue*/*/
+}
+
+#headingleft{
+float:left;
+}
+
+#headingright{
+float:right;
+}
+
+h1{
+color:white;
+margin-left:15px;
+}
+
+#header ul{
+list-style-type: none;
+padding-left:15px;
+color:white;
+}
+
+/* navigation */
+
+#navigation{
+margin-top:8px;
+height:10em;
+width:860px;
+background-color:#9AC0CD;
+/*background-color:#FFB30F;  /* glaze yellow*/*/
+}
+
+
+#navigation li{
+list-style-type:none;
+position:relative;
+float:left;
+padding-right:15px;
+margin-top:0.3em;
+text-transform:uppercase;
+color:yellow;  /* glaze yellow*/
+}
+
+#navigation li a{
+text-decoration:none;
+
+/*color:#0B3D92;*/
+}
+
+#navigation li a:hover{
+text-decoration:underline;
+}
+
+#navigation li ul{
+position: absolute;
+padding-left:1px;
+font-size:1em;
+display:none;
+}
+
+#navigation li:hover ul{
+display:block;
+position: absolute;
+padding-left:1px;
+font-size:0.7em;
+}
+
+/* content */
+
+.img-proj{
+width:400px;
+color:white;
+text-align:left;
+margin-bottom:10px;
+margin-left:10px;
+padding-left:15px;
+background-color:#FFCC66;
+border: 0.6em solid #FFCC66;
+-moz-border-radius: 15px;
+border-radius:15px;
+float:left;
+}
+
+
+img{border:0.8em solid white;}
+
+h2{
+clear:both;
+text-align:left;
+margin-left:15px;
+margin-bottom: 20px;
+padding-left:15px;
+font-size:1em;
+font-weight:bold;
+background-color:#FFCC66;
+color:grey;
+width:375px;
+border:o.2em solid #FFCC66;
+-moz-border-radius: 15px;
+border-radius:15px;
+}
+
+h3{font-size:1em;}
+
+p{font-size:1em;}
+
+#content .experience,
+ul.position{
+list-style-type:none;}
+
+.date{float:left;}
+
+.school,
+.degree,
+.employer{
+margin-left:180px;}
+
+.position{margin-left:140px;}
+
+.experience li a{
+text-decoration:none;
+color:#0B3D92;
+font-weigh/* screen.css */
+
+
+.experience li a:hover{text-decoration:underline;}
+
+#content img{
+margin-top: 15px;
+margin-left: 10px;
+}
+
+
+
+/* footer */
+#footer{
+text-align:right;
+
+}
+
+
+
+
+
