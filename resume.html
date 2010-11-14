@@ -1,12 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="keywords" content="Jing,Gao,resume" />
-  <link type="text/css" rel="stylesheet" media="screen"
- href="screen.css" />
-  <link type="text/css" rel="stylesheet" media="print"
- href="print.css" />
+  <meta name="keywords" content="Jing Gao,resume" />
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.2r1/build/reset/reset-min.css"/>
+  <link type="text/css" rel="stylesheet" media="screen"  href="screen.css" />
+  <link type="text/css" rel="stylesheet" media="print"  href="print.css" />
   <title>Resume: Jing Gao's home page</title>
 </head>
 <body>
@@ -22,9 +22,14 @@
 				
 		<ul id="navigation">
 			<li><a href="index.html">Home</a></li>
-			<li><a href="resume.html">Resume</a></li>
-			<li><a href="portfolio.html">Portfolio</a></li>
-			<li><a href="contact.html">Contact</a></li>
+			<li class="selected"><a href="resume.html">Resume</a></li>
+			<li><a href="portfolio.html">Portfolio</a>
+				<ul id="sub-navigation">
+					<li><a href="docdesign.html"> Document Design</a></li>
+					<li><a href="information.html"> Information Architect</a></li>
+				</ul>
+			</li>
+			<li><a href="contact.html">Contact</a></li>	
 		</ul>
 	   	
         <div id="content">
@@ -101,9 +106,9 @@
 			</ul>
 
 		</div>
-		<div id="footer">
-			<p>2010 Jing Gao</p>
-	    </div>
+			<div id="footer">
+				<a href="#header">top</a>
+			</div>
 	</div>
 </body>
 </html>
