@@ -25,9 +25,10 @@ background:#9AC0CD;
 float:left;
 }
 
-h1{
+#header h1{
 color:white;
 margin-left:15px;
+font-size:2em;
 }
 
 #header ul{
@@ -39,7 +40,6 @@ color:white;
 /* navigation */
 
 #navigation{
-margin-top:8px;
 height:10em;
 width:900px;
 background-color:#9AC0CD;
@@ -145,10 +145,11 @@ height:300px;
 margin:15px 0 0 10px;
 }
 
+
 h2{
 clear:both;
 text-align:left;
-margin:0 0 20px 15px;
+margin:15px 0 15px 15px;
 padding-left:15px;
 font-size:1em;
 font-weight:bold;
@@ -170,19 +171,26 @@ p{font-size:1em;}
  ul.position{
   list-style-type:none;}
 
-.date{float:left;}
+.date{
+float:left;
+margin-left:15px;}
 
 .school,
 .degree,
 .employer{
 margin-left:180px;}
 
-.position{margin-left:140px;}
+.position{margin-left:180px;}
 
 .experience li a{
 text-decoration:none;
 color:#0B3D92;
 }
+
+.list-resume{
+margin-left:15px;
+}
+.
 
 .experience li a:hover{text-decoration:underline;}
 
