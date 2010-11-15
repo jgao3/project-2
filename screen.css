@@ -1,7 +1,9 @@
 /* screen.css */
 
+html{
+background:#95A09A;   /*grey of Great Wall*/}
+
 body{
-background:#95A09A;   /*grey of Great Wall*/
 font-family:Verdana, sans-serif;}
 
 #container{
@@ -137,10 +139,15 @@ float:left;
 border-radius:15px;
 }
 
-img{
+.img-proj h3{
+height:35px;
+}
+
+
+.img{
 border:0.8em solid white;
 width:300px;
-height:300px;
+height:428px;
 margin:15px 0 0 10px;
 }
 
