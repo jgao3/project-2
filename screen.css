@@ -161,11 +161,12 @@ border:0.2em solid #FFCC66;
 border-radius:15px;
 }
 
-h3{font-size:1em;
-margin-left:15px;
+h3{font-size:1.1em;
+margin:8px 10px;
 }
 
-p{font-size:1em;}
+p{font-size:1em;
+margin: 12px 10px 8px 6px;}
 
 #content .experience,
  ul.position{
@@ -188,9 +189,16 @@ color:#0B3D92;
 }
 
 .list-resume{
-margin-left:15px;
+margin-left:30px;
 }
-.
+
+.list-resume li{
+list-style-type:circle;
+}
+
+#content li{
+margin-bottom:6px;
+}
 
 .experience li a:hover{text-decoration:underline;}
 
