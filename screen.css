@@ -8,7 +8,6 @@ font-family:Verdana, sans-serif;}
 width:900px;
 margin-left:auto;
 margin-right:auto;
-margin-bottom:0;
 background:white;
 }
 
@@ -162,11 +161,11 @@ border-radius:15px;
 }
 
 h3{font-size:1.1em;
-margin:8px 10px;
+margin:10px 10px;
 }
 
 p{font-size:1em;
-margin: 12px 10px 8px 6px;}
+margin: 12px 10px 8px 12px;}
 
 #content .experience,
  ul.position{
@@ -198,6 +197,10 @@ list-style-type:circle;
 
 #content li{
 margin-bottom:6px;
+}
+
+#content .bio{
+margin:20px 40px;
 }
 
 .experience li a:hover{text-decoration:underline;}
