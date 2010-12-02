@@ -28,8 +28,9 @@ float:left;
 
 #header h1{
 color:white;
-margin-left:15px;
+margin:0 0 10px 15px;
 font-size:2em;
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 #header ul{
@@ -58,11 +59,19 @@ text-transform:uppercase;
 
 #navigation li a{
 text-decoration:none;
-color:white;
+font-weight:bold;
+color:#ccc;
+color: rgba(255, 255, 255, 0.9);
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+-webkit-border-radius: 14px;
+-moz-border-radius: 14px;
+border-radius: 14px;
 }
 
-#navigation li a:hover{
-text-decoration:underline;
+#navigation li a:hover,
+#navigation li a:focus{
+background:#ffcc66; 
+background:rgba(255,204,102,0.8);
 }
 
 #navigation li ul{
@@ -70,12 +79,22 @@ position: absolute;
 padding-left:1px;
 font-size:1em;
 display:none;
+font-weight:normal;
 }
 
 #navigation li:hover ul{
 display:block;
 position: absolute;
 padding-left:1px;
+font-size:0.7em;
+
+}
+
+#sub-navigation li a{
+font-weight:normal;}
+
+#navigation .selected  ul{
+display:block;
 font-size:0.7em;
 }
 
@@ -98,7 +117,6 @@ list-style-type:none;}
 
 #portnav .selected a{
 color: #838B8B;
-font-weight:bold;
 }
 
 
@@ -106,7 +124,8 @@ font-weight:bold;
 display:block;
 padding:0 10px;
 font-size:0.8em;
-font-weight:normal;
+font-weight:bold;
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
 text-transform:uppercase;
 text-decoration:none;
 color:white;
@@ -135,14 +154,23 @@ padding-left:15px;
 background-color:#FFCC66;
 border: 0.6em solid #FFB30F;
 float:left;
+-webkit-border-radius: 15px; 
 -moz-border-radius:15px;
 border-radius:15px;
+-webkit-transition-property: color; 
+-webkit-transition-duration: 1s; 
+-webkit-transition-timing-function: linear;
 }
+
+.img-proj:hover{
+color:black;
+}
+
 
 .img-proj h3{
 height:35px;
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
-
 
 .img{
 border:0.8em solid white;
@@ -151,6 +179,12 @@ height:428px;
 margin:15px 0 0 10px;
 }
 
+.img-proj a:hover img {
+-webkit-transform: scale(1.5) rotate(-10deg);
+-moz-transform: scale(1.5) rotate(-10deg);
+-o-transform: scale(1.5) rotate(-10deg);
+transform: scale(1.5) rotate(-10deg);
+}
 
 h2{
 clear:both;
